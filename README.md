@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Just trying to play with [hotwire](hotwire.dev).
 
-Things you may want to cover:
+* Ruby 3.0.0
+* Rails 6.1.0
+* Postgres 13.1
+* Docker
+* Docker COmpose
 
-* Ruby version
 
-* System dependencies
+### HOW TO USE
+Set up an `.env` file based on .env.sample.
 
-* Configuration
 
-* Database creation
+Create the image:
+```shell
+docker-compose build
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run the container:
+```shell
+docker-compose up
+```
